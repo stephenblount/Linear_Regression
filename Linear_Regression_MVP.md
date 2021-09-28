@@ -8,7 +8,7 @@ The initial step of the analysis, after data acquisition and cleaning, was to cr
 Next, collinear features were removed from analysis to create a more stable model, keeping power due to its strong relationship with the target variable. All categorical features where then converted to dummy variables and a baseline linear regression model was created.
 
 
-After the baseline was created, a LASSO model was iterated to determine the best lambda value to minimize error and a Lasso model was fit to the training data. From the list of variable coefficient columns were removed from the analysis if the coefficient went to zero.
+After the baseline was created, a LASSO model was iterated to determine the best lambda value to minimize error and a Lasso model was fit to the training data. From the list of variable coefficient, columns were removed from the analysis if the coefficient went to zero.
 
 
 I plan to iterate a few more cycles through LASSO to try to reduce my total number of variables more. Diagnostic plots will be added to look at the spread of residuals and y vs y pred.
