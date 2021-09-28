@@ -12,4 +12,4 @@ After the baseline was created, a LASSO model was iterated to determine the best
 
 
 I plan to iterate a few more cycles through LASSO to try to reduce my total number of variables more. Diagnostic plots will be added to look at the spread of residuals and y vs y pred.
-I want to try to run Ridge and ElasticNet to see how my results vary. If I have time, trying to implement a kfold schema through will be undertaken.
+I want to try to run Ridge and ElasticNet to see how my results vary. If I have time, trying to implement a kfold schema throughout the code will be undertaken.
